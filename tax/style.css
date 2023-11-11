@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5df4d;
+}
+
+.tax-keisan {
+    max-width: 450px;
+    margin: 100px auto;
+    background-color: #949597;
+    padding: 100px 50px;
+    border-radius: 20px;
+}
+
+.zeibetu {
+    width: 300px;
+    display: block;
+    margin: 0 auto 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 50px 0;
+    text-align: right;
+    box-shadow: 5px 5px 0 0 #f5df4d;
+}
+
+.keisan {
+    width: 300px;
+    margin: 0 auto 40px;
+    display: block;
+    background-color: #3f3d55;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    box-shadow: 5px 5px 0 0 #f5df4d;
+    color: white;
+    font-weight: 600;
+}
+
+.kekka {
+    width: 120px;
+    margin: 0 auto 10px;
+    padding: 20px 20px 5px 20px;
+    font-size: 16px;
+    display: block;
+    border-bottom: #333 double 6px;
+}
+
+.zeikomi {
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 0 0 #f5df4d;
+}
+
+.description{
+    width: 300px;
+    text-align: right;
+    margin: 40px auto 0;
+}
+
+
+
+@media (max-width:390px) {
+    .tax-keisan {
+        max-width: 90%;
+        margin: 20px 5%;
+        background-color: #949597;
+        padding: 80px 10px 40px;
+        border-radius: 20px;
+    }
+
+    .zeibetu {
+        width: 95%;
+        display: block;
+        margin: 0 auto 20px;
+        border: none;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 50px 0;
+        text-align: right;
+        box-shadow: 5px 5px 0 0 #f5df4d;
+    }
+
+    .keisan {
+        width: 95%;
+        margin: 0 auto 40px;
+        display: block;
+        background-color: #3f3d55;
+        border: none;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 16px;
+        box-shadow: 5px 5px 0 0 #f5df4d;
+    }
+
+    .kekka {
+        width: 80%;
+        margin: 0 auto 10px;
+        padding: 20px 20px 5px 20px;
+        font-size: 1.6rem;
+        display: block;
+        border-bottom: #333 double 6px;
+    }
+
+    .zeikomi {
+        width: 95%;
+        background-color: white;
+        margin: auto;
+        border-radius: 20px;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-shadow: 5px 5px 0 0 #f5df4d;
+    }
+
+
+
+}
